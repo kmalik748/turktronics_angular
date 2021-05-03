@@ -1,0 +1,71 @@
+<!--Top Black Line-->
+<div class="top-black-row">
+  <div id="topRowContent" class="container py-1">
+    <div class="clearfix">
+      <div class="row d-flex float-left">
+        <div id="blackrow_section">
+          <i class="fa fa-phone"></i>
+          <a href="tel:+923324752950" class="text-white ml-1">
+            <span class="fontsize-smaller">+92 332 475 2950</span>
+          </a>
+        </div>
+        <div id="blackrow_section" class="ml-4">
+          <i class="fa fa-envelope"></i>
+          <a href="mailto:contact@turktronics.com" class="text-white ml-1">
+            <span class="fontsize-smaller">contact@turktronics.com</span>
+          </a>
+        </div>
+      </div>
+      <div class="row d-flex float-right">
+        <div id="blackrow_section">
+          <a href="https://www.facebook.com/Turktronics/" target="_blank" class="text-white">
+            <i class="fa fa-facebook-f text-primary"></i>
+          </a>
+        </div>
+        <div id="blackrow_section" class="ml-4">
+          <a href="tel:+923324752950" class="text-white">
+            <i class="fa fa-whatsapp text-success"></i>
+          </a>
+        </div>
+        <div id="blackrow_section" class="ml-4">
+          <a href="" class="text-white">
+            <i class="fa fa-twitter text-primary"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Top Nav Bar-->
+<nav class="navbar navbar-expand-lg bg-light" id="topNavBar">
+  <div class="container">
+    <a class="navbar-brand" routerLink="./">
+      <img class="h-50px img-fluid" src="assets/images/logo/logo.png">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="./" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+          <i class="fa fa-home"></i>
+          Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="./portfolio" routerLinkActive="active">
+          <i class="fa fa-tasks"></i>
+          Portfolio
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="./contact" routerLinkActive="active">
+          <i class="fa fa-envelope"></i>
+          Contact Us
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

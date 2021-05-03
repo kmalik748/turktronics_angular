@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+.fontsize-smaller{
+  font-size: smaller;
+}
+.heading-font-1{
+  font-family: 'Questrial', sans-serif;
+}
+.nav-item-fonts{
+  font-family: 'Rubik', sans-serif;
+}
+.bg-light-1{
+  background-color: #f4f4f4;
+}
+.font-size-large{
+  font-size: large !important;
+}
+.font-size-larger{
+  font-size: larger !important;
+}

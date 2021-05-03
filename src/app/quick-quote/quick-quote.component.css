@@ -1,0 +1,32 @@
+.bounce-4 {
+  animation-name: bounce-4;
+  animation-timing-function: ease;
+}
+.bounce_box {
+  align-self: flex-end;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  background-color: #F44336;
+  margin: 0 auto 0 auto;
+  transform-origin: bottom;
+}
+@keyframes bounce-4 {
+  0%   { transform: scale(1,1)    translateY(0); }
+  10%  { transform: scale(1.1,.9) translateY(0); }
+  30%  { transform: scale(.9,1.1) translateY(-100px); }
+  50%  { transform: scale(1,1)    translateY(0); }
+  100% { transform: scale(1,1)    translateY(0); }
+}
+
+
+.chat_btn{
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+}
+.chat_btn button{
+  /*color: white;*/
+  /*background-image: linear-gradient(#4c4c4c, #928a8a);*/
+  background-image: linear-gradient(to bottom right, #131389, #de2727);
+  color: white;
+}

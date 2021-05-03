@@ -1,0 +1,76 @@
+.bg-light-1{
+  background-color: #f4f4f4;
+}
+#clients img:hover{
+  transition: .1s all;
+  transform: translateY(-4px);
+}
+#project_card:hover{
+  box-shadow: 0px 4px 20px #444444;
+  transform: translateY(-10px);
+  transition: .2s all;
+}
+
+
+/*
+   AboutUs Background Image
+*/
+.bg-aboutus-image {
+  /*background-image: url("../img/about-us1.png");*/
+  background-image: url("../../assets/images/images/aboutbanner.jpg");
+  /*filter: blur(8px);*/
+  /*-webkit-filter: blur(8px);*/
+  /*height: 100%;*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#visible_txt_on_blur{
+  background-color: rgba(0, 0, 0, 0.6) !important;
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  z-index: 2;
+  text-align: center;
+  border: 0;
+  height: 100%;
+  width: 100%;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+/*
+   INdex Page small cards
+*/
+.index-small-cards{
+  display: flex;
+}
+.index-left-favicon{
+  display: table-cell;
+  vertical-align: top;
+}
+.index-right-text{
+
+}
+.index-right-text h3{
+  font-size: 1.3em;
+  font-weight: 400;
+  letter-spacing: normal;
+  text-transform: none;
+  text-transform: capitalize;
+}
+
+/*
+   Clients
+*/
+#clients img{
+  height: 70px;
+  margin-right: 10px;
+  max-width: 150px;
+}
+/*
+   Projects
+*/
+.card-img-top{
+  max-height: 200px;
+}

@@ -1,0 +1,28 @@
+<h1 class="my-4 text-center font-weight-light">Our Best Projects</h1>
+
+<div class="container">
+  <div class="row project-section py-3 my-3 bg-light-1" *ngFor="let project of projects">
+    <div class="col-3">
+      <img class="project-img img-fluid rounded" src="{{ project.displayPicture }}">
+      <button class="btn btn-success w-100 mt-1">Live Preview</button>
+    </div>
+    <div class="col-9">
+      <div class="project-heading nav-item-fonts">
+        <h3 class="display-6">{{ project.heading }}</h3>
+        <p>
+          {{ project.description }}
+        </p>
+      </div>
+      <!--                        Gallery         -->
+      <h5>Galley:</h5>
+      <div class="project-gallery d-flex flex-row">
+        <div *ngFor="let pic of project.allPics">
+          <a target="_blank" href="{{ pic }}">
+            <img src="{{ pic }}">
+          </a>
+        </div>
+      </div>
+      <!--End of gallery-->
+    </div>
+  </div>
+</div>

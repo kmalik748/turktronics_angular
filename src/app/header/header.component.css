@@ -1,0 +1,43 @@
+.top-black-row{
+  color: white;
+  background-color: black;
+}
+
+.ml-30percent{
+  margin-left: 30%;
+}
+.navbar-brand img{
+  height: 40px;
+}
+#topNavBar{
+  /*border-bottom: 2px solid #0a0aff;*/
+  border-bottom: 2px solid #16344c;
+  /*box-shadow: -1px 4px 20px red;*/
+}
+.nav-item a{
+  margin-left: 5px;
+  color: black;
+  font-family: 'Rubik', sans-serif;
+  transition: .2s all;
+}
+.active{
+  /*background: #0a0aff;*/
+  background: #16344c;
+  color: white;
+  border-radius: 2px;
+}
+.nav-item a.active:hover{
+  color: white;
+  border-radius: 6px;
+}
+.nav-item a.active{
+  color: white;
+}
+.nav-item a:hover{
+  color: white;
+  /*background: #0a0aff;*/
+  background: #16344c;
+}
+.fontsize-smaller{
+  font-size: smaller;
+}
